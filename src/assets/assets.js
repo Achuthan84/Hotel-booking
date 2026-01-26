@@ -37,9 +37,11 @@ import listIcon from "./listIcon.svg";
 import uploadArea from "./uploadArea.svg";
 import totalBookingIcon from "./totalBookingIcon.svg";
 import totalRevenueIcon from "./totalRevenueIcon.svg";
+import whiteArrow from "./whitearrow.png"
 
 
 export const assets = {
+    whiteArrow,
     logo,
     searchIcon,
     userIcon,
