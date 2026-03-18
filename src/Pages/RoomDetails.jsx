@@ -70,14 +70,14 @@ const RoomDetails = () => {
         <div className='flex flex-col flex-wrap md:flex-row items-start md:items-center gap-4 md:gap-10 text-gray-500'>
           <div className='flex flex-col'>
             <label htmlFor="checkInDate" className='font-medium'>Check-In </label>
-            <input type="date" id='checkInDate' placeholder='Check-In' className='w-full cursor-pointer rounded border border-gray-300 px-3 pu-2 mt-1.5 outline-none' required />
+            <input type="date" id='checkInDate' placeholder='Check-In' className='w-full cursor-pointer rounded border border-gray-300 px-3 py-2 mt-1.5 outline-none' required />
           </div>
         </div>
         <div className='w-px h-15 bg-gray-300/70 max-md:hidden'></div>
         <div className='flex flex-col flex-wrap md:flex-row items-start md:items-center gap-4 md:gap-10 text-gray-500'>
           <div className='flex flex-col'>
             <label htmlFor="checkOutDate" className='font-medium'>Check-Out </label>
-            <input type="date" id='checkOutDate' placeholder='Check-Out' className='w-full cursor-pointer rounded border border-gray-300 px-3 pu-2 mt-1.5 outline-none' required />
+            <input type="date" id='checkOutDate' placeholder='Check-Out' className='w-full cursor-pointer rounded border border-gray-300 px-3 py-2 mt-1.5 outline-none' required />
           </div>
         </div>
         <div className='w-px h-15 bg-gray-300/70 max-md:hidden'>
